@@ -13,3 +13,23 @@ header {
     background-color: #383D58;
     color: white;
     }
+    .cabecalho-imagem{
+        width: 20%; 
+    }
+
+    .cabecalho {
+        background-color: #383D58;
+        color: white;
+        }
+
+.cabecalho-lista-item{
+    display: inline-block;
+    }
+    .cabecalho-lista-item{
+        display: inline-block;
+        margin: 0 16px;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            }
