@@ -1,35 +1,33 @@
-body {
-#383D58
-}
-
-body {
-    background-color: #383D58
-}
-
-<title>Document</title>
-<link rel="stylesheet" href="style.css">
 
 header {
-    background-color: #383D58;
+    background-color:#383D58;
     color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 24px 0;
     }
-    .cabecalho-imagem{
-        width: 20%; 
+    .cabeçalho-imagem{
+        width: 20%;
     }
-
-    .cabecalho {
-        background-color: #383D58;
-        color: white;
-        }
-
-.cabecalho-lista-item{
-    display: inline-block;
-    }
-    .cabecalho-lista-item{
+    .cabeçalho-lista-item{
         display: inline-block;
         margin: 0 16px;
-        }
-        * {
-            margin: 0;
-            padding: 0;
-            }
+        padding: 24px 0;
+    }
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    .escola-imagem{
+        width: 25%;
+    }
+    .escola{
+        background-image: linear-gradient(#383D58, #00c0eb);
+        color: white;
+        display: flex;
+    }
+    <section class="escola">
+    <h2 class="escola-titulo">Sobre a Escola</h2>
+    <p class="escola-texto-um"></p>
+    <p class="escola-texto-dois"></p>
+    </section>
